@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.boxbuttons{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px 0 100px;
+}
+.boxbuttons a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    margin: 0 2px 0 2px;
+    background: black;
+    color: white;
+}
+.target{
+    margin: 1em auto;
+    width: 300px;
+    height: 300px;
+    transition: all .5s;
+    background: black;
+}
+.yellow{
+    margin: 1em auto;
+    width: 300px;
+    height: 300px;
+    transition: all .5s;
+    background: yellow;
+}
+.buttonblue{
+    margin: 1em auto;
+    width: 300px;
+    height: 300px;
+    transition: all .5s;
+    background: steelblue;
+}
+.buttonred{
+    margin: 1em auto;
+    width: 300px;
+    height: 300px;
+    transition: all .5s;
+    background: darkred;
+}
+.buttongreen{
+    margin: 1em auto;
+    width: 300px;
+    height: 300px;
+    transition: all .5s;
+    background: green;
+}
+.active{
+    font-weight: bold;
+    border: 2px solid black
+}
+.inactive{
+    color: #999999
+}

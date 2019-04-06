@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    padding-bottom: 100em;
+}
+h1,nav {
+    text-align: center;
+}
+h1 {
+    margin: 1.5em 0;
+}
+nav {
+    background: steelblue;
+    line-height: 3;
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+p:nth-of-type(1) {
+    padding-top: 2.5em;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0
+}

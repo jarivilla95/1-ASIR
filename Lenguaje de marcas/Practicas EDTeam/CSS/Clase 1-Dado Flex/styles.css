@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2, 100, 180);
+    color: white;
+    margin: 0;
+    height: 100px;
+}
+.container-dice{
+    background: black;
+    height: 500px;
+    display: flex;
+    color:rgb(2, 100, 180);;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.container-face{
+    display: flex;
+    flex: 0 1 30%;
+    align-items: center;
+    flex-direction: column;
+}
+.point {
+    width: 24px;
+    height: 24px;
+    background: rgb(2, 100, 180);;
+    border-radius: 50%;
+}
+
+[class^="face"]{
+    background: white;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    color: white;
+}
+
+.face1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.face2 {
+    justify-content: space-between;
+}
+
+.face2 .point:nth-child(2) {
+    align-self: flex-end;
+}
+
+.face3 {
+    justify-content: space-between;
+}
+
+.face3 .point:nth-child(2){
+    align-self: center;
+}
+
+.face3 .point:nth-child(3){
+    align-self: flex-end;
+}
+
+.face4 {
+    justify-content: space-between;
+}
+
+.face4 .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+.face5 {
+    justify-content: space-between;
+}
+
+.face5 .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+.face5 .point {
+    align-self: center;
+}
+
+.face6 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.face6 .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

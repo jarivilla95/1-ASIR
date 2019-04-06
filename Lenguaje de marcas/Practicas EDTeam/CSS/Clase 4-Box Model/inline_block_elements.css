@@ -1,0 +1,19 @@
+body {
+    font-size: 2.5em;
+}
+h1{
+    background: yellow;
+    height: 200px;
+    width: 200px;
+    display: inline;
+}
+p {
+    background: green;
+    display: inline;
+}
+span {
+    background: yellow;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
