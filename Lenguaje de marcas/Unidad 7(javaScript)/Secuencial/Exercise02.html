@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 2 javaScript</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function() {
+    var base = parseInt(prompt("Escribe la base de un triangulo: "));
+    var altura = parseInt(prompt("Escribe la altura de un triangulo: "));
+    $("#outputBaseAltura").html("La base que has introducido es de "+ base + " y la altura " +altura);
+    var perimetro=(2*base)+(2*altura);
+    var area=base*altura;
+    $("#outputPerimetro").html("El perimetro del triangulo es: "+ perimetro );
+    $("#outputArea").html("El area del triangulo es: " + area)
+});
+
+</script>
+
+</head>
+<body>
+    <p id="outputBaseAltura"></p>
+    <p id="outputPerimetro"></p>
+    <p id="outputArea"></p>
+</body>
+</html>
