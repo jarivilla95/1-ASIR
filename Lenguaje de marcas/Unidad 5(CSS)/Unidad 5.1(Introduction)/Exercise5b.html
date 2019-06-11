@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercise 5 B</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        div {
+            border: 2px solid rgb(50, 50, 110);
+            border-radius: 3px;
+            background: rgb(70, 130, 240);
+            color: white;
+            text-align: center;
+            margin-left: 10%;
+        }
+
+        div.content-box {
+            width: 40%;
+            height: 20px;
+            padding: 2%;
+            box-sizing: content-box;
+        }
+
+        div.border-box {
+            width: 44.5%;
+            height: 66px;
+            padding: 2%;
+            box-sizing: border-box;
+            margin-top: 3%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>box-sizing property</h1>
+    <div class="content-box">Box with <i>box-sizing: content-box</i></div>
+    <div class="border-box">Box with <i>box-sizing: border-box</i></div>
+</body>
+
+</html>
