@@ -1,0 +1,160 @@
+body{
+    position:relative;
+}
+.header div{
+    float:left;
+    padding:20px;
+}
+.header img{
+    float:right;
+    max-width: 200px;
+}
+.main{
+    clear:both;
+    padding-top:30px;
+    position: relative;
+}
+.main img{
+    width:100%;
+}
+.main div:nth-of-type(1){
+    position: absolute;
+    top:20%;
+    left:20%;
+    color:white;
+    padding:1%;
+    background-color:  rgb(85, 85, 255);
+    opacity: 0.8;
+}
+.main div:nth-of-type(2){
+    position: absolute;
+    top:30%;
+    left:20%;
+    color:white;
+    padding:1%;
+    background-color: lightgrey;
+    opacity: 0.8;
+}
+.about{
+    display:flex;
+    flex-direction: column;
+}
+.about>div:nth-of-type(1){
+    text-align: center;
+}
+.ab2{
+    display:flex;
+}
+.ab2Izq, .ab2Der{
+    flex:1;
+    background-color: rgb(145, 138, 170);
+    color:white;
+    margin:10px;
+}
+.ab2Der>div, .ab2Izq>div{
+    padding:15px;
+}
+.ab2Izq>img, .ab2Der>img{
+    width:100%;
+}
+.ab2Cent{
+    width:100%;
+    flex:4;
+    border: 2px solid RGB(145, 138, 170);
+    margin:10px;
+}
+.ab2Cent>img{
+    width:100%;
+}
+.ab2Cent>div{
+    padding:20px;
+    text-align: center;
+}
+.cent{
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cent>div{
+    color:white;
+    padding:20px;
+    background-color: rgb(85, 85, 255);
+    border-radius: 15px;
+}
+.abajo{
+    margin-top:20px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+.abajo>img:nth-of-type(1){
+    width:200px;
+    height: 200px;
+}
+.abajo>img:nth-of-type(2){
+    width:200px;
+    height: 200px;
+}
+.features{
+    margin-top:20px;
+    border:white 3px solid;
+    background-color: RGB(145, 138, 170);
+    color:white;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2,1fr,4fr); 
+}
+.features>h1{
+    text-align: center;
+}
+.reja2{
+    display:grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2,1fr,1fr); 
+    border:white 3px solid;
+}
+.reja2>img{
+    width:100%;
+}
+.reja2>div{
+    margin-top:30%;
+    text-align: center;
+}
+.up{
+    background-color:blue;
+    width:20px;
+    color:white;
+    padding:30px;
+    border-radius:100%;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+}
+.up>a{
+    color:white;
+}
+@media only screen and (max-width: 600px){
+    .main>div{
+        display:none;
+    }
+    .ab2{
+        flex:initial;
+        display:flex;
+        flex-direction: column;
+    }
+    .ab2Cent{
+        order:0;
+    }
+    .ab2Der,.ab2Izq{
+        order:1;
+    }
+    .reja2{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3,1fr,1fr); 
+    }
+    .J{
+        display:none;
+    }
+}

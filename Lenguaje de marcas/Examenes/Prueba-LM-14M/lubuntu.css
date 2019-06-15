@@ -1,0 +1,64 @@
+* {
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Ejercicio 1*/
+.head {
+    float: left;
+    width: 100%;
+}
+.h-item1{
+    float: left;
+    margin: 20px 0 20px 100px;
+}
+.h-item2 {
+    float: left;
+    margin: 20px 0 20px 40px;
+    
+}
+.h-logo {
+    float: right;
+    width: 70px;
+    margin: 15px 0 20px 20px;;
+}
+
+/* Ejercicio 2*/
+
+.main {
+    width: 100%;
+    position: absolute;
+    margin-top: 80px
+}
+
+.m-img {
+    position: relative;
+    width: 100%;
+}
+.m-item1{
+    position: absolute;
+    top: 15%;
+    background-color: purple;
+    left: 15%;
+    padding: 10px;
+    color: white;
+}
+.m-item2{
+    position: absolute;
+    background-color: grey;
+    width: 490%;
+    padding: 10px;
+    left: 0%;
+    top: 100%;
+}
+
+/* Ejercicio 3 */
+.about{
+    position: relative;
+    top: 500px;
+}
+.a-item-top {
+    display: flex;
+}
+/* Ejercicio 4 */
+
+
+
